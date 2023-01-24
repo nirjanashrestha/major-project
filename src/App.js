@@ -111,6 +111,8 @@ export default function App() {
               >
                 {item.todo}
                 <div className="action">
+                  <h2>this is my project</h2>
+                  <h1>i love my country</h1>
                   <input
                     type="checkbox"
                     onChange={(e) => changeFunc(item.id)}
